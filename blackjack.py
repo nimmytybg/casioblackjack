@@ -1,4 +1,4 @@
-#calculator blackjack ver 1.0 for CASIO fx-CG50 by nimmy sept 2026
+#calculator blackjack ver 1.0.1 for CASIO fx-CG50 by nimmy sept 2026
 import random
 def cls():
     print("\n"*8)
@@ -62,8 +62,8 @@ def resolve():
         print('draw')
 print('welcome to blackjack')
 print('press EXE to play,')
-info = int(input('type 1 for info'))
-if info == 1:
+info = input('type 1 for info')
+if info == '1':
     cls()
     print('calculator blackjack for CASIO fx-CG50')
     print('1.0 sept 26')
@@ -73,10 +73,19 @@ if info == 1:
     input('press EXE for page 2')
     cls()
     print('for info and download visit')
-    print('https://github.com/nimmytybg/casioblackjack')
-    print('to download directly from windows terminal type')
-    print('wget -O blackjack.py https://github.com/nimmytybg/casioblackjack ensure terminal is running as admin')
+    print('https://github.com/nimmytybg')
+    print('/casioblackjack')
+    print('to download directly from ')
+    print('windows terminal type')
+    input('press EXE for page 3')
+    cls()
+    print('wget -O blackjack.py https:')
+    print('//github.com/nimmytybg')
+    print('/casioblackjack ensure') 
+    print('terminal is running as admin')
     input('press EXE to play')
+#else:
+#    pass
 cls()
 dealD()
 deal()
